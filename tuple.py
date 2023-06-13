@@ -1,3 +1,5 @@
+highest and lowest
+
 a=(1,4,3,5,7,8)
 b=list(a)
 print(b)
@@ -15,7 +17,7 @@ print(a)
 print(highest)
 print(lowest)
 
-
+ascending and descending order
 a=(4,3,5,7,8,1)
 c=list(a)
 print(c)
