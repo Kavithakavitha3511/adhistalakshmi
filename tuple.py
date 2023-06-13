@@ -3,15 +3,15 @@ b=list(a)
 print(b)
 b[4]=32
 print(b)
+highest=b[0]
+lowest=b[0]
+for i in range(len(b)):
+    if b[i]>highest:
+        highest=b[i]
+    else:
+        lowset=b[i]
 a=tuple(b)
 print(a)
-highest=a[0]
-lowest=a[0]
-for i in range(len(a)):
-    if a[i]>highest:
-        highest=a[i]
-    else:
-        lowset=a[i]
 print(highest)
 print(lowest)
 
